@@ -1,0 +1,15 @@
+let nota = 61;
+let multiplo = 0;
+if (nota < 40){
+    alert("Reprovado");
+} else{
+    while (multiplo < nota ) {
+        multiplo = multiplo + 5;
+      }
+      if (multiplo - nota < 3){
+        nota = multiplo;
+        
+      }
+
+}
+console.log(nota)
